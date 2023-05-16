@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <footer>
-      <p>@copyright2023 </p>
+      <p>@copyright 2023 </p>
     </footer>
   )
 }

@@ -1,7 +1,6 @@
 import React from 'react'
-import Sidenav from './Sidenav'
-import "./Sidenav.css"
-
+import Sidenav from "./Sidebar/Sidenav"
+import "./Sidebar/Sidenav.css"
 function Header({classname}) {
   return (
     <header className={classname}>

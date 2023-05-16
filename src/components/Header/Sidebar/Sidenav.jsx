@@ -11,11 +11,11 @@ import PortraitIcon from '@mui/icons-material/Portrait';
 
 const Sidenav = () => {
   return (
-    <div className="sidenav ">
-      <span className="mx-2 p-2" ><h1 className="text-white text-3xl">InstaArt</h1></span>
+    <div className="sidenav  ">
+      <span className="mx-2 p-2" ><h1 className="text-white text-3xl">Inst_art</h1></span>
       <div className="sidenav__buttons">
         <button className="sidenav__button">
-          <span><HomeIcon /></span>
+          <span className="side_icon"><HomeIcon /></span>
           <span>Home</span>
         </button>
         <button className="sidenav__button">
@@ -55,7 +55,8 @@ const Sidenav = () => {
       </div>
 
       <button className="sidenav__button">
-        <MenuIcon />
+        <span><MenuIcon /></span>
+        
         <span className="sidenav__buttonText">More</span>
       </button>
 
